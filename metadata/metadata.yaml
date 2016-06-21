@@ -2,5 +2,5 @@ title: 26S-PIPs complex
 tags: [chemical crosslinks, PMI]
 prereqs: []
 test:
-	runtime: 24h
-	build: release
+    runtime: 24h
+    build: release
