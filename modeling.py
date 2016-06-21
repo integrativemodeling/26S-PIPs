@@ -30,7 +30,7 @@ topology_file = datadirectory+"topology.txt"
 # Set MC Sampling Parameters
 #--------------------------
 num_frames = 1000
-if '--test' in sys.argv: num_frames=20
+if '--test' in sys.argv: num_frames=10
 num_mc_steps = 10
 
 #--------------------------
