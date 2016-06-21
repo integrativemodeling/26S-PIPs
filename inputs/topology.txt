@@ -1,0 +1,33 @@
+|directories|
+|pdb_dir|./|
+|fasta_dir|./|
+
+|topology_dictionary|
+|component_name|domain_name|fasta_fn|fasta_id|pdb_fn|chain|residue_range|pdb_offset|bead_size|em_residues_per_gaussian|
+|Rpt6|Rpt6  |sequences.fasta|h26s_flex_fix:J|h26s_flex_fix.pdb|J|all|0|10|0|
+|Rpt4|Rpt4  |sequences.fasta|h26s_flex_fix:L|h26s_flex_fix.pdb|L|all  |0|10|0|
+|Rpt5|Rpt5  |sequences.fasta|h26s_flex_fix:M|h26s_flex_fix.pdb|M|all|0|10|0|
+|Rpt2|Rpt2|sequences.fasta|h26s_flex_fix:I|h26s_flex_fix.pdb|I|all|0|10|0|
+|Rpt3|Rpt3|sequences.fasta|h26s_flex_fix:K|h26s_flex_fix.pdb|K|all|0|10|0|
+|Rpt1|Rpt1|sequences.fasta|h26s_flex_fix:H|h26s_flex_fix.pdb|H|all|0|10|0|
+|alpha2|alpha2|sequences.fasta|h26s_flex_fix:B|h26s_flex_fix.pdb|B|all|0|10|0|
+|alpha3|alpha3|sequences.fasta|h26s_flex_fix:C|h26s_flex_fix.pdb|C|all|0|10|0|
+|alpha1|alpha1|sequences.fasta|h26s_flex_fix:A|h26s_flex_fix.pdb|A|all|0|10|0|
+|alpha6|alpha6|sequences.fasta|h26s_flex_fix:F|h26s_flex_fix.pdb|F|all|0|10|0|
+|alpha7|alpha7|sequences.fasta|h26s_flex_fix:G|h26s_flex_fix.pdb|G|all|0|10|0|
+|alpha4|alpha4|sequences.fasta|h26s_flex_fix:D|h26s_flex_fix.pdb|D|all|0|10|0|
+|alpha5|alpha5|sequences.fasta|h26s_flex_fix:E|h26s_flex_fix.pdb|E|all|0|10|0|
+|Rpn12|Rpn12|sequences.fasta|h26s_flex_fix:T|h26s_flex_fix.pdb|T|all|0|10|0|
+|Rpn10|Rpn10|sequences.fasta|h26s_flex_fix:W|h26s_flex_fix.pdb|W|all|0|10|0|
+|Rpn11|Rpn11|sequences.fasta|h26s_flex_fix:V|h26s_flex_fix.pdb|V|all|0|10|0|
+|Rpn15|Rpn15|sequences.fasta|h26s_flex_fix:Y|h26s_flex_fix.pdb|Y|all|0|10|0|
+|Rpn1|Rpn1|sequences.fasta|h26s_flex_fix:Z|h26s_flex_fix.pdb|Z|all|0|10|0|
+|Rpn2|Rpn2|sequences.fasta|h26s_flex_fix:N|h26s_flex_fix.pdb|N|all|0|10|0|
+|Rpn3|Rpn3|sequences.fasta|h26s_flex_fix:S|h26s_flex_fix.pdb|S|all|0|10|0|
+|Rpn5|Rpn5|sequences.fasta|h26s_flex_fix:P|h26s_flex_fix.pdb|P|all|0|10|0|
+|Rpn6|Rpn6|sequences.fasta|h26s_flex_fix:Q|h26s_flex_fix.pdb|Q|all|0|10|0|
+|Rpn7|Rpn7|sequences.fasta|h26s_flex_fix:R|h26s_flex_fix.pdb|R|all|0|10|0|
+|Rpn8|Rpn8|sequences.fasta|h26s_flex_fix:U|h26s_flex_fix.pdb|U|all|0|10|0|
+|Rpn9|Rpn9|sequences.fasta|h26s_flex_fix:O|h26s_flex_fix.pdb|O|all|0|10|0|
+|ublcp1|ublcp1n  |sequences.fasta|ublcp1:A|ublcp1_t1_1.pdb|A|1,75|0|10|0|
+|ublcp1|ublcp1c  |sequences.fasta|ublcp1:A|ublcp1_t1_1.pdb|A|76,318|0|10|0|
