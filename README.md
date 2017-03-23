@@ -1,6 +1,7 @@
 # 26S-PIPs
 
-The modeling.py script demonstrates the use of IMP and PMI in the modeling of the 26S proteasome - UBLCP1 complex, using chemical crosslinking and comperative modeling. 
+The modeling.py script demonstrates the use of [IMP](https://integrativemodeling.org)
+and [PMI](https://github.com/salilab/pmi) in the modeling of the 26S proteasome - UBLCP1 complex, using chemical crosslinking and comparative modeling. 
 
 The modeling protocol will work with a default build of IMP.
 
@@ -29,12 +30,16 @@ _Author(s)_: Peter Cimermancic, Charles Greenberg
 
 _Date_: May 17th, 2016
 
-_License_: [LGPL](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html).
-This library is free software; you can redistribute it and/or
-modify it under the terms of the GNU Lesser General Public
-License as published by the Free Software Foundation; either
-version 2 of the License, or (at your option) any later version.
+_License_: [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+This work is freely available under the terms of the Creative Commons
+Attribution-ShareAlike 4.0 International License.
 
-_Last known good IMP version_: [![build info](https://integrativemodeling.org/systems/?sysstat=21&branch=master)](http://integrativemodeling.org/systems/) [![build info](https://integrativemodeling.org/systems/?sysstat=21&branch=develop)](http://integrativemodeling.org/systems/)
+_Last known good IMP version_: [![build info](https://integrativemodeling.org/systems/?sysstat=21&branch=master)](https://integrativemodeling.org/systems/) [![build info](https://integrativemodeling.org/systems/?sysstat=21&branch=develop)](https://integrativemodeling.org/systems/)
 
+_Publications_:
+ - X. Wang, P. Cimermancic, C. Yu, E. Sakata, X. Guo, C. Greenberg,
+   A. Schweitzer, A.S. Huszagh, Y. Yang, E.J. Novitsky, A. Leitner, P. Nanni,
+   A. Kahraman, J. Dixon, S.D. Rychnovsky, R. Aebersold, W. Baumeister,
+   A. Sali, L. Huang. [Molecular Details Underlying Dynamic Structures and
+   Regulation of the Human 26S Proteasome](https://www.ncbi.nlm.nih.gov/pubmed/28292943), Mol Cell Proteomics, mcp.M116.065326 [Epub ahead of print], 2017
   
