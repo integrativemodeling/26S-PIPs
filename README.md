@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.496173.svg)](https://doi.org/10.5281/zenodo.496173)
+
 # 26S-PIPs
 
 The modeling.py script demonstrates the use of [IMP](https://integrativemodeling.org)
