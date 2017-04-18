@@ -1,7 +1,7 @@
 title: 26S-PIPs complex
 tags: [chemical crosslinks, PMI]
 pmid: 28292943
-prereqs: []
+prereqs: [python/numpy]
 test:
     runtime: 24h
     build: release
