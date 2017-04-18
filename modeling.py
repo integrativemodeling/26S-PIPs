@@ -1,3 +1,4 @@
+from __future__ import print_function
 import IMP
 import IMP.core
 import IMP.algebra
@@ -70,7 +71,7 @@ m = IMP.Model()
 topology = IMP.pmi.topology.TopologyReader(topology_file)
 domains = topology.component_list
 
-print '#'*10,domains
+print('#'*10,domains)
 
 
 bm = IMP.pmi.macros.BuildModel(m,
