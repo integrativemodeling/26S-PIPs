@@ -5,16 +5,16 @@ import IMP.algebra
 import IMP.atom
 import IMP.container
 
-import IMP.pmi.restraints.crosslinking
-import IMP.pmi.restraints.stereochemistry
-import IMP.pmi.restraints.em
-import IMP.pmi.restraints.basic
-import IMP.pmi.representation
-import IMP.pmi.tools
-import IMP.pmi.samplers
-import IMP.pmi.output
-import IMP.pmi.macros
-import IMP.pmi.topology
+import IMP.pmi1.restraints.crosslinking
+import IMP.pmi1.restraints.stereochemistry
+import IMP.pmi1.restraints.em
+import IMP.pmi1.restraints.basic
+import IMP.pmi1.representation
+import IMP.pmi1.tools
+import IMP.pmi1.samplers
+import IMP.pmi1.output
+import IMP.pmi1.macros
+import IMP.pmi1.topology
 
 import os
 import sys
@@ -68,13 +68,13 @@ rigid_bodies = [["ublcp1c"]]
 m = IMP.Model()
 
 # Create list of components from topology file
-topology = IMP.pmi.topology.TopologyReader(topology_file)
+topology = IMP.pmi1.topology.TopologyReader(topology_file)
 domains = topology.component_list
 
 print('#'*10,domains)
 
 
-bm = IMP.pmi.macros.BuildModel(m,
+bm = IMP.pmi1.macros.BuildModel(m,
                     component_topologies=domains,
                     list_of_rigid_bodies=rigid_bodies)#,
                     #list_of_super_rigid_bodies=super_rigid_bodies,
@@ -124,7 +124,7 @@ sampleobjects.append(representation)
 
 # Excluded Volume Restraint
 #  To speed up this expensive restraint, we operate it at resolution 20
-ev = IMP.pmi.restraints.stereochemistry.ExcludedVolumeSphere(
+ev = IMP.pmi1.restraints.stereochemistry.ExcludedVolumeSphere(
                                          representation, resolution=20)
 ev.add_to_model()
 outputobjects.append(ev)
@@ -141,7 +141,7 @@ columnmap["Residue1"]="res1"
 columnmap["Residue2"]="res2"
 columnmap["IDScore"]=None
 
-xl1 = IMP.pmi.restraints.crosslinking.ISDCrossLinkMS(representation,
+xl1 = IMP.pmi1.restraints.crosslinking.ISDCrossLinkMS(representation,
                                    datadirectory+'xlinks.txt',
                                    length=21.0,
                                    slope=0.01,
@@ -161,7 +161,7 @@ outputobjects.append(xl1)
 # Monte-Carlo Sampling
 #--------------------------
 # This object defines all components to be sampled as well as the sampling protocol
-mc1=IMP.pmi.macros.ReplicaExchange0(m,
+mc1=IMP.pmi1.macros.ReplicaExchange0(m,
                                     representation,
                                     monte_carlo_sample_objects=sampleobjects,
                                     output_objects=outputobjects,
