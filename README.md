@@ -43,5 +43,5 @@ _Publications_:
    A. Schweitzer, A.S. Huszagh, Y. Yang, E.J. Novitsky, A. Leitner, P. Nanni,
    A. Kahraman, J. Dixon, S.D. Rychnovsky, R. Aebersold, W. Baumeister,
    A. Sali, L. Huang. [Molecular Details Underlying Dynamic Structures and
-   Regulation of the Human 26S Proteasome](https://www.ncbi.nlm.nih.gov/pubmed/28292943), Mol Cell Proteomics, mcp.M116.065326 [Epub ahead of print], 2017
+   Regulation of the Human 26S Proteasome](https://www.ncbi.nlm.nih.gov/pubmed/28292943), Mol Cell Proteomics 16(5):840-854, 2017
   
