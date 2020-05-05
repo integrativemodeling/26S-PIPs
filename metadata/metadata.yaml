@@ -1,5 +1,5 @@
 title: 26S-PIPs complex
-tags: [chemical crosslinks, PMI]
+tags: [chemical crosslinks, PMI1]
 pmid: 28292943
 prereqs: [python/numpy]
 test:
